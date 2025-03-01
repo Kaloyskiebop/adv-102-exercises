@@ -24,7 +24,9 @@ export default function TabTwoScreen() {
      list: ["Image Picker", "Name", "Password", "Register Button"],
      route: "/Register/register" as const
     },
-    {id: 6, title: "Exercise"},
+    {id: 6, title: "Exercise",
+     description: "Create a crud \n using useReducer and useContext",
+     route: "/screens/crudContainer" as const},
     {id: 7, title: "Exercise"},
 
   ]
