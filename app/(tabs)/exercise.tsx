@@ -30,6 +30,9 @@ export default function TabTwoScreen() {
     {id: 7, title: "Exercise",
      description: "Create a simple quiz app \n using API from Open Trivia Database",
      route: "/screens/quiz" as const},
+    {id: 8, title: "Exercise",
+     description: "Create a Login and Registration Screen \n using React Hook Form",
+     route: "/screens/Exercise_8/container" as const},
   ]
 
   return (
@@ -61,6 +64,7 @@ export default function TabTwoScreen() {
 
 const styles = StyleSheet.create({
     container: {
+      backgroundColor: 'white',
       padding: 15,
       flex: 1,
       alignItems: "center",
