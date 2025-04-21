@@ -31,11 +31,26 @@ export default function RootLayout() {
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="screens/screens" options={{
+        <Stack.Screen name="Login/login" options={{
+          title: "Login Screen",
+           headerShown: true 
+          }}/>
+         <Stack.Screen name="screens/screens" options={{
           title: "useState and useEffect screens",
            headerShown: true 
           }}/>
-        
+        <Stack.Screen name="Register/register" options={{
+          title: "Register Screen",
+           headerShown: true 
+          }}/> 
+        <Stack.Screen name="screens/crudContainer" options={{
+          title: "CRUD Screen",
+           headerShown: true 
+          }}/> 
+        <Stack.Screen name="screens/quiz" options={{
+          title: "Quiz Screen",
+           headerShown: true 
+          }}/> 
         <Stack.Screen name="+not-found" />
       </Stack>
       <StatusBar style="auto" />

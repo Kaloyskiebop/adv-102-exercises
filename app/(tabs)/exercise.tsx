@@ -27,8 +27,9 @@ export default function TabTwoScreen() {
     {id: 6, title: "Exercise",
      description: "Create a crud \n using useReducer and useContext",
      route: "/screens/crudContainer" as const},
-    {id: 7, title: "Exercise"},
-
+    {id: 7, title: "Exercise",
+     description: "Create a simple quiz app \n using API from Open Trivia Database",
+     route: "/screens/quiz" as const},
   ]
 
   return (
